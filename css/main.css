@@ -1148,7 +1148,7 @@ a.menu-toggle {
  */
 
 #intro {
-	background: #14181E no-repeat center;
+	background: #14181E url(../images/intro-bg.jpg) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
