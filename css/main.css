@@ -153,7 +153,7 @@ p img {
 	margin: 0;
 }
 p.lead {
-	font-family: "merriweather-light", serif;
+	font-family: "merriweather-bold", serif;
 	font-size: 1.8rem;
 	line-height: 1.8;
 	color: #737373;
@@ -1182,7 +1182,7 @@ a.menu-toggle {
 	margin-right: auto;
 }
 .intro-content h5 {
-	color: rgba(255, 255, 255, 0.6);
+	color: rgba(53, 168, 224, 0.8);
 	font-family: "raleway-heavy", sans-serif;
 	font-size: 1.8rem;
 	line-height: 1.667;
