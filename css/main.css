@@ -811,6 +811,7 @@ header {
 	-webkit-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
+	padding-right: 149px;
 }
 header .row {
 	width: auto;
@@ -867,11 +868,6 @@ header .logo a {
 	header {
 		top: 0;
 		padding: 6px 0;
-	}
-	header .logo a {
-		width: 38px;
-		height: 38px;
-		background-size: 38px 38px;
 	}
 }
 
@@ -1001,7 +997,7 @@ a.menu-toggle {
 		height: 40px;
 		position: absolute;
 		top: 50%;
-		right: 30px;
+		right: 149px;
 		margin-top: -20px;
 	}
 	a.menu-toggle span {
