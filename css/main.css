@@ -991,13 +991,18 @@ a.menu-toggle {
 		top: 69px;
 		right: 0;
 	}
+	header .logo {
+		display: block;
+		right: 135px;
+		left: auto;
+	}
 	a.menu-toggle {
 		display: block;
 		width: 40px;
 		height: 40px;
 		position: absolute;
 		top: 50%;
-		right: 149px;
+		left: 20px;
 		margin-top: -20px;
 	}
 	a.menu-toggle span {
