@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Lhander - Style Page</title>
+	<meta name="description" content="">  
+	<meta name="author" content="">
+
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">  
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/vendor.css">  
+
+   <style type="text/css" media="screen">
+
+   	#styles { 
+   		background: white;
+   		padding-top: 12rem;
+   		padding-bottom: 12rem;
+   	}
+      	
+   </style>   
+
+   <!-- script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- favicons
+	================================================== -->
+	<link rel="icon" type="image/png" href="favicon.png">
+
+</head>
+
+<body id="top">
+
+	<!-- header 
+   ================================================== -->
+   <header>
+
+   	<div class="row">
+
+   		<div class="logo">
+	         <a href="index.html">Lhander</a>
+	      </div>
+
+	   	<nav id="main-nav-wrap">
+				<ul class="main-navigation">
+					<li><a href="index.html#intro" title="">Home</a></li>
+					<li><a href="index.html#process" title="">Process</a></li>
+					<li><a href="index.html#features" title="">Features</a></li>
+					<li><a href="index.html#pricing" title="">Pricing</a></li>
+					<li><a href="index.html#faq" title="">FAQ</a></li>
+					<li><a  href="styles.html" title="">styles</a></li>
+					<li class="highlight with-sep"><a href="#" title="">Sign Up</a></li>					
+				</ul>
+			</nav>
+
+			<a class="menu-toggle" href="#"><span>Menu</span></a>
+   		
+   	</div>   	
+   	
+   </header> <!-- /header -->
+
+	<!-- intro section
+   ================================================== -->
+   <section id="intro">
+
+   	<div class="shadow-overlay"></div>
+
+   	<div class="intro-content">
+   		<div class="row">
+
+   			<div class="col-twelve">
+
+	   			<div class='video-link'>
+	   				<a href="#video-popup"><img src="images/play-button.png" alt=""></a>
+	   			</div>
+
+	   			<h5>Hello welcome to lhander.</h5>
+	   			<h1>Our awesome app will make your life a lot easier.</h1>
+
+	   			<a class="button stroke smoothscroll" href="#process" title="">Learn More</a>
+
+	   		</div>  
+   			
+   		</div>   		 		
+   	</div> 
+
+   	<!-- Modal Popup
+	   ========================================================= -->
+
+      <div id="video-popup" class="popup-modal mfp-hide">
+
+		   <div class="fluid-video-wrapper">
+            <iframe src="http://player.vimeo.com/video/14592941?title=0&amp;byline=0&amp;portrait=0&amp;color=faec09" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
+         </div>		     
+
+         <a class="close-popup">Close</a>         
+
+	   </div> <!-- /video-popup -->  	 	
+
+   </section> <!-- /intro -->
+
+
+   <!-- Process Section
+   ================================================== -->
+   <section id="styles">
+
+   	<div class="row">
+
+   		<div class="col-twelve tab-full">
+
+   			<h1>This is the style page.</h1>
+
+   			<p class="lead">Lorem ipsum Officia elit ad tempor dolore est ex incididunt incididunt occaecat culpa deserunt sunt labore in cillum ullamco magna in Excepteur consequat in reprehenderit proident mollit incididunt officia commodo.
+   			Duis ea officia sed dolor pariatur enim dolore dolore quis incididunt nulla exercitation commodo veniam et ea incididunt.</p>   			
+
+   		</div>
+
+     	</div> <!-- /row -->
+
+     	<div class="row">
+
+     		<div class="col-six tab-full">
+
+		      <h3>Paragraph and Image</h3>
+
+		      <p><a href="#"><img width="120" height="120" class="pull-left" alt="sample-image" src="images/sample-image.jpg"></a>
+		  		Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum.
+		  		Cras id urna. Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu
+		  		posuere nunc justo tempus leo. Donec mattis, purus nec placerat bibendum, dui pede condimentum
+		  		odio, ac blandit ante orci ut diam. Cras fringilla magna. Phasellus suscipit, leo a pharetra
+		  		condimentum, lorem tellus eleifend magna, eget fringilla velit magna id neque.
+		  		posuere nunc justo tempus leo. </p>
+
+		  		<p>
+		  		Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum.
+		  		Cras id urna. Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu
+		  		posuere nunc justo tempus leo. Donec mattis, purus nec placerat bibendum, dui pede condimentum
+		  		odio, ac blandit ante orci ut diam.	
+ 			   </p>
+
+            <p>A <a href="#">link</a>,
+  			   <abbr title="this really isn't a very good description">abbrebation</abbr>,
+  			   <strong>strong text</strong>,
+            <em>em text</em>,
+  			   <del>deleted text</del>, and
+            <mark>this is a mark text.</mark>
+            <code>.code</code>
+          	</p>
+
+         </div>
+
+         <div class="col-six tab-full">
+
+            <h3>Drop Caps</h3>
+
+	         <p class="drop-cap">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+	         there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the
+	         Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu	posuere nunc justo tempus leo. Donec mattis, purus nec placerat bibendum, dui pede condimentum odio, ac blandit ante orci ut diam. Cras fringilla magna. Phasellus suscipit, leo a pharetra condimentum, lorem tellus eleifend magna, eget fringilla velit magna id neque.
+		  		</p>
+
+		      <h3>Small Print</h3>
+
+		      <p>Buy one widget, get one free!
+		  		<small>(While supplies last. Offer expires on the vernal equinox. Not valid in Ohio.)</small>
+		  		</p>
+
+		   </div>	         
+
+		</div> <!-- /row -->
+
+		<div class="row">
+
+		  	<div class="col-six tab-full">
+
+		      <h3>Pull Quotes</h3>
+
+		      <aside class="pull-quote">
+				   <blockquote>
+					   <p>It is a paradisematic country, in which roasted parts of
+		            sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind
+		            texts it is an almost unorthographic life One day however a small line of blind text by the name
+		            of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+					</blockquote>
+				</aside>
+
+		   </div>
+
+		   <div class="col-six tab-full">
+
+		      <h3>Block Quotes</h3>
+
+		      <blockquote cite="http://where-i-got-my-info-from.com">
+				   <p>Your work is going to fill a large part of your life, and the only way to be truly satisfied is
+		         to do what you believe is great work. And the only way to do great work is to love what you do.
+		         If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
+		         </p>
+		
+					<cite>
+					   <a href="#">Steve Jobs</a>
+					</cite>
+			   </blockquote>
+
+		      <blockquote>
+		         <p>Good design is as little design as possible.</p>
+		         <cite>Dieter Rams</cite>
+		      </blockquote>
+
+		   </div>
+
+		</div> <!-- /row -->
+
+		<div class="row half-bottom">
+
+		 	<div class="col-nine tab-full">
+
+		      <h3>Example Lists</h3>
+
+		      <ol>
+				   <li>Here is an example</li>
+				   <li>of an ordered list.</li>
+				   <li>A parent list item.
+				   	<ul>
+				   		<li>one</li>
+				   		<li>two</li>
+				   		<li>three</li>
+				   	</ul>
+				   </li>
+				   <li>A list item.</li>
+			   </ol>
+
+		      <ul class="disc">
+				   <li>Here is an example</li>
+				   <li>of an unordered list.</li>
+			   </ul>	
+
+			   <h3>Definition Lists</h3>	            
+
+		      <h5>a) Multi-line Definitions (default)</h5>
+
+		      <dl>
+				   <dt><strong>This is a term</strong></dt>
+				      <dd>this is the definition of that term, which both live in a <code>dl</code>.</dd>
+				   <dt><strong>Another Term</strong></dt>
+				      <dd>And it gets a definition too, which is this line</dd>
+				      <dd>This is a 2<sup>nd</sup> definition for a single term. A <code>dt</code> may be followed by multiple <code>dd</code>s.</dd>
+			   </dl>
+
+		   </div>
+
+		   <div class="col-three tab-full">		                  
+
+		      <h3>Headers</h3>
+
+		      <h1>H1 Heading</h1>
+		      <h2>H2 Heading</h2>
+		      <h3>H3 Heading</h3>
+		      <h4>H4 Heading</h4>
+		      <h5>H5 Heading</h5>
+		      <h6>H6 Heading</h6>
+
+		      <h3>Buttons</h3>
+
+		    	<p>
+		     		<a class="button button-primary full-width" href="#">Primary Button</a>
+		     		<a class="button full-width" href="#">Default Button</a>
+		     	</p>
+
+		   </div>
+
+		</div> <!-- /row -->
+
+		<div class="row half-bottom">
+
+      	<div class="col-six tab-full">
+
+      		<h3>Responsive Image</h3>
+
+      		<p><img src="images/post-thumb-1.jpg"></p>
+
+      	</div>
+
+      	<div class="col-six tab-full">
+
+      		<h3>Responsive video</h3>
+
+      		<div class="fluid-video-wrapper">
+                  <iframe src="http://player.vimeo.com/video/14592941?title=0&amp;byline=0&amp;portrait=0&amp;color=F64B39" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
+            </div>
+
+      	</div>
+      	
+      </div> <!-- /row -->
+
+      <div class="row">
+
+      	<div class="col-twelve">
+
+      		<h3>Tables</h3>
+      		<p>Be sure to use properly formed table markup with <code>&lt;thead&gt;</code> and <code>&lt;tbody&gt;</code> when building a <code>table</code>.</p>
+
+      		<div class="table-responsive">
+
+      			<table>
+					  <thead>
+					    <tr>
+					      <th>Name</th>
+					      <th>Age</th>
+					      <th>Sex</th>
+					      <th>Location</th>					    
+					    </tr>
+					  </thead>
+					  <tbody>
+					    <tr>
+					      <td>Naruto Uzumaki</td>
+					      <td>16</td>
+					      <td>Male</td>
+					      <td>Konoha</td>					    
+					    </tr>
+					    <tr>
+					      <td>Sakura Haruno</td>
+					      <td>16</td>
+					      <td>Female</td>
+					      <td>Konoha</td>			    
+					    </tr>
+					  </tbody>
+					</table>
+
+      		</div>     		
+
+      	</div>
+      	
+      </div> <!--row -->      
+   	
+   </section> <!-- /styles -->
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+   	<div class="footer-main">
+
+   		<div class="row">  
+
+	      	<div class="col-four tab-full mob-full footer-info">            
+
+	            <div class="footer-logo"></div>
+
+	            <p>
+		        	1600 Amphitheatre Parkway<br>
+            	Mountain View, CA 94043 US<br>
+		        	info@lhander.com &nbsp; +123-456-789
+		        	</p>
+
+		      </div> <!-- /footer-info -->
+
+	      	<div class="col-two tab-1-3 mob-1-2 site-links">
+
+	      		<h4>Site Links</h4>
+
+	      		<ul>
+	      			<li><a href="#">About Us</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">FAQ</a></li>
+						<li><a href="#">Terms</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+					</ul>
+
+	      	</div> <!-- /site-links -->  
+
+	      	<div class="col-two tab-1-3 mob-1-2 social-links">
+
+	      		<h4>Social</h4>
+
+	      		<ul>
+	      			<li><a href="#">Twitter</a></li>
+						<li><a href="#">Facebook</a></li>
+						<li><a href="#">Dribbble</a></li>
+						<li><a href="#">Google+</a></li>
+						<li><a href="#">Skype</a></li>
+					</ul>
+	      	           	
+	      	</div> <!-- /social --> 
+
+	      	<div class="col-four tab-1-3 mob-full footer-subscribe">
+
+	      		<h4>Subscribe</h4>
+
+	      		<p>Keep yourself updated. Subscribe to our newsletter.</p>
+
+	      		<div class="subscribe-form">
+	      	
+	      			<form id="mc-form" class="group" novalidate="true">
+
+							<input type="email" value="" name="dEmail" class="email" id="mc-email" placeholder="type email &amp; hit enter" required=""> 
+	   		
+			   			<input type="submit" name="subscribe" >
+		   	
+		   				<label for="mc-email" class="subscribe-message"></label>
+			
+						</form>
+
+	      		</div>	      		
+	      	           	
+	      	</div> <!-- /subscribe -->         
+
+	      </div> <!-- /row -->
+
+   	</div> <!-- /footer-main -->
+
+
+      <div class="footer-bottom">
+
+      	<div class="row">
+
+      		<div class="col-twelve">
+	      		<div class="copyright">
+		         	<span>© Copyright Lhander 2016.</span> 
+		         	<span>Design by <a href="http://www.styleshout.com/">styleshout</a></span>		         	
+		         </div>
+
+		         <div id="go-top" style="display: block;">
+		            <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon ion-android-arrow-up"></i></a>
+		         </div>         
+	      	</div>
+
+      	</div> <!-- /footer-bottom -->     	
+
+      </div>
+
+   </footer>  
+
+   <div id="preloader"> 
+    	<div id="loader"></div>
+   </div> 
+
+   <!-- Java Script
+   ================================================== --> 
+   <script src="js/jquery-1.11.3.min.js"></script>
+   <script src="js/jquery-migrate-1.2.1.min.js"></script>
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
+
+</body>
+
+</html>

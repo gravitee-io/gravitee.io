@@ -1,30 +1,339 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <!-- BASICS -->
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Gravitee.io</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.css"/>
-        <link rel="stylesheet" href="styles/main.css"/>
-    </head>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
 
-    <body>
+    <!--- basic page needs
+      ================================================== -->
+    <meta charset="utf-8">
+    <title>Gravitee.io</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-        <!-- Start : Home Section -->
-        <section id="home" class="fullscreen">
-            <h1>GRAVITEE.IO</h1>
-            <h2>Open Source API Management Solution</h2>
-            <h3>A rocket will be launched soon....</h3>
-        </section>
-        <!-- End : Home Section -->
+    <!-- mobile specific metas
+      ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-        <script src="scripts/js/main.js"></script>
-    </body>
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/vendor.css">
+
+    <!-- script
+      ================================================== -->
+    <script src="js/modernizr.js"></script>
+
+    <!-- favicons
+       ================================================== -->
+    <link rel="icon" type="image/png" href="favicon.png">
+
+</head>
+
+<body id="top">
+
+<!-- header
+================================================== -->
+<header>
+    <a href="https://github.com/gravitee-io"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/652c5b9acfaddf3a9c326fa6bde407b87f7be0f4/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6f72616e67655f6666373630302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png"></a>
+    <div class="row">
+        <div class="logo">
+            <a href="index.html">Gravitee.io</a>
+        </div>
+
+        <nav id="main-nav-wrap">
+            <ul class="main-navigation">
+                <li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
+                <li><a class="smoothscroll" href="#process" title="">How it works</a></li>
+                <li><a class="smoothscroll" href="#features" title="">Features</a></li>
+                <li><a class="smoothscroll" href="#cta" title="">License</a></li>
+                <li><a href="http://docs.gravitee.io/latest/" title="Documentation">Docs</a></li>
+            </ul>
+        </nav>
+
+        <a class="menu-toggle" href="#"><span>Menu</span></a>
+
+    </div>
+
+</header> <!-- /header -->
+
+<!-- intro section
+================================================== -->
+<section id="intro">
+    <div class="shadow-overlay"></div>
+    <div class="intro-content">
+        <div class="row">
+            <div class="col-twelve">
+                <h5>Open Source API Management Solution</h5>
+                <h1>UNLEASH THE POWER OF YOUR APIS.</h1>
+                <a class="button stroke smoothscroll" href="#process" title="">Learn More</a>
+            </div>
+        </div>
+    </div>
+</section> <!-- /intro -->
+
+<!-- Process Section
+================================================== -->
+<section id="process">
+    <div class="row section-intro">
+        <div class="col-twelve with-bottom-line">
+            <h1>How it works</h1>
+            <p class="lead">
+                Gravitee.io is a flexible, lightweight and blazing-fast open source API Management solution that helps
+                you and your organizations to control finely who, when and how users access your APIs.
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-six tab-full">
+            <div class="item" data-item="1">
+                <h5>Register API</h5>
+                <p>Register your API and configure the gateway. You need load-balancing, SSL management ? Perhaps an API documentation for your end users ?</p>
+            </div>
+        </div>
+        <div class="col-six tab-full">
+            <p>
+                <a href="images/register-api.png" data-imagelightbox="a">
+                    <img src="images/register-api.png">
+                    <div class="overlay"></div>
+                </a>
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-six tab-full">
+            <div class="item" data-item="2">
+                <h5>Configure policies on paths</h5>
+                <p>Policies are plugins that allows you to manage request and response on each call. Gravitee.io provides policies out of the box : rate limiting, headers or query parameters transformation, REST to SOAP mapping, IP filtering and a lot more...</p>
+            </div>
+        </div>
+        <div class="col-six tab-full">
+            <p>
+                <a href="images/policies.png" data-imagelightbox="a">
+                    <img src="images/policies.png">
+                    <div class="overlay"></div>
+                </a>
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-six tab-full">
+            <div class="item" data-item="3">
+                <h5>Register Applications</h5>
+                <p>As an API consumer, you must register your application and request an API key for APIs you want to use.</p>
+            </div>
+        </div>
+        <div class="col-six tab-full">
+            <p>
+                <a href="images/applications.png" data-imagelightbox="a">
+                    <img src="images/applications.png">
+                    <div class="overlay"></div>
+                </a>
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-six tab-full">
+            <div class="item" data-item="4">
+                <h5>And voilà!</h5>
+                <p>Our gateway now handles each call and provides different dashboards for API publishers and consumers.</p>
+            </div>
+        </div>
+        <div class="col-six tab-full">
+            <p>
+                <a href="images/dashboard.png" data-imagelightbox="a">
+                    <img src="images/dashboard.png">
+                    <div class="overlay"></div>
+                </a>
+            </p>
+        </div>
+    </div>
+</section> <!-- /process-->
+
+
+<!-- features Section
+================================================== -->
+<section id="features">
+
+    <div class="row section-intro">
+        <div class="col-twelve with-bottom-line">
+            <h1>Great features you'll love.</h1>
+            <p class="lead">Out of the box, Gravitee.io is bundled with a lot of features.</p>
+        </div>
+    </div>
+
+    <div class="row features-content">
+        <div class="features-list block-1-3 block-s-1-2 block-tab-full group">
+            <div class="bgrid feature">
+                <span class="icon"><i class="icon-file"></i></span>
+                <div class="service-content">
+                    <h3 class="h05">Rest API</h3>
+                    <p>
+                        Every actions performed via the web UI is using our internal Rest API.
+                    </p>
+                </div>
+            </div> <!-- /bgrid -->
+
+            <div class="bgrid feature">
+                <span class="icon"><i class="icon-cursor"></i></span>
+                <div class="service-content">
+                    <h3 class="h05">One click deployment</h3>
+                    <p>
+                        With a single click, your API is deploy to every Gravitee.io gateways and is ready to be consumed.
+                    </p>
+                </div>
+            </div> <!-- /bgrid -->
+
+            <div class="bgrid feature">
+                <span class="icon"><i class="icon-cloud"></i></span>
+                <div class="service-content">
+                    <h3 class="h05">Highly scalable</h3>
+                    <p>
+                        You can easily add a new Gravitee.io gateway into your cluster. All datas are synchronized and you don't have to spare time into configurations.
+                    </p>
+                </div>
+            </div> <!-- /bgrid -->
+
+            <div class="bgrid feature">
+                <span class="icon"><i class="icon-share"></i></span>
+                <div class="service-content">
+                    <h3 class="h05">Custom Policies</h3>
+                    <p>
+                        Gravitee.io provides <a href="https://github.com/gravitee-io?utf8=%E2%9C%93&query=gravitee-policy-">a lot of policies</a> out of the box (rate limiting, CORS, IP filtering).
+                        If it's not enough, you can <a href="http://docs.gravitee.io/latest/#gravitee-dev-guide-policies">develop your own</a>.
+                    </p>
+                </div>
+            </div> <!-- /bgrid -->
+
+            <div class="bgrid feature">
+                <span class="icon"><i class="icon-network"></i></span>
+                <div class="service-content">
+                    <h3 class="h05">Load Balancing</h3>
+                    <p>
+                        Round robin, random, sticky mode, Gravitee.io provides a set of load-balancing algorithms that feet your needs.
+                    </p>
+                </div>
+            </div> <!-- /bgrid -->
+
+            <div class="bgrid feature">
+                <span class="icon"><i class="icon-update"></i></span>
+                <div class="service-content">
+                    <h3 class="h05">Rollback configuration</h3>
+                    <p>
+                        Every change in the configuration of your API is versioned. You can roll back to an old configuration or compare to each other.
+                    </p>
+                </div>
+            </div> <!-- /bgrid -->
+
+            <div class="bgrid feature">
+                <span class="icon"><i class="icon-signal"></i></span>
+                <div class="service-content">
+                    <h3 class="h05">Custom Reporters</h3>
+                    <p>
+                        You want to report data into a specific storage or by calling a dedicated API ? No problem, just implement the reporting API and do whatever you want !
+                    </p>
+                </div>
+            </div> <!-- /bgrid -->
+
+            <div class="bgrid feature">
+                <span class="icon"><i class="icon-bar-chart"></i></span>
+                <div class="service-content">
+                    <h3 class="h05">Analytics</h3>
+                    <p>
+                        Response time, response status, payload size, our analytics dashboard provides useful metrics to analyze the behavior of your API and how this one is consumed.
+                    </p>
+                </div>
+            </div> <!-- /bgrid -->
+
+            <div class="bgrid feature">
+                <span class="icon"><i class="icon-window"></i></span>
+                <div class="service-content">
+                    <h3 class="h05">API Portal</h3>
+                    <p>
+                        Because without consumer, your API is nothing, Gravitee.io highlights your APIs on its portal and provides documentation and access control for applications which want to make use of your work.
+                    </p>
+                </div>
+            </div> <!-- /bgrid -->
+            
+            <div class="bgrid feature">
+                <span class="icon"><i class="icon-grid"></i></span>
+                <div class="service-content">
+                    <h3 class="h05">Sharding</h3>
+                    <p>
+                        By using tags, you can dispatch your APIs into multiple gateway instances (public / private environment, ...)
+                    </p>
+                </div>
+            </div> <!-- /bgrid -->
+            
+                        <div class="bgrid feature">
+                <span class="icon"><i class="icon-heart"></i></span>
+                <div class="service-content">
+                    <h3 class="h05">Health check</h3>
+                    <p>
+                        As an API provider, add health check to your services and provide feedback to your user about the availability of your API.
+                    </p>
+                </div>
+            </div> <!-- /bgrid -->
+            
+            <div class="bgrid feature">
+                <span class="icon"><i class="icon-first-aid"></i></span>
+                <div class="service-content">
+                    <h3 class="h05">Fail-over</h3>
+                    <p>
+                        One of your API service is not available ? No problem, the gateway will take care of this and will jump to an other instance of your service in a transparent way for consumers.
+                    </p>
+                </div>
+            </div> <!-- /bgrid -->
+        </div> <!-- /features-list -->
+    </div> <!-- /features-content -->
+</section> <!-- /features -->
+
+<!-- cta
+================================================== -->
+<section id="cta">
+
+    <div class="row section-intro">
+        <div class="col-twelve with-bottom-line">
+
+            <h1>Fully Open Source</h1>
+
+            <p class="lead">Every piece of code is distributed under <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License V2</a></p>
+
+        </div>
+    </div>
+    <div class="footer-bottom">
+
+        <div class="row">
+
+            <div class="col-twelve">
+                <div class="copyright">
+                    <span>© Copyright GraviteeSource 2016.</span>
+                    <span>Design by <a href="http://www.styleshout.com/" style="color:white">styleshout</a></span>
+                </div>
+
+                <div id="go-top" style="display: block;">
+                    <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon ion-android-arrow-up"></i></a>
+                </div>
+            </div>
+
+        </div> <!-- /footer-bottom -->
+
+    </div>
+
+</section> <!-- /cta -->
+
+<div id="preloader">
+    <div id="loader"></div>
+</div>
+
+<!-- Java Script
+================================================== -->
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+</body>
 
 </html>
