@@ -1408,7 +1408,7 @@ a.menu-toggle {
  * ------------------------------------------------------------------- 
  */
 
-#process {
+#process, #downloads {
 	background: #FFFFFF;
 	padding-top: 12rem;
 	padding-bottom: 15rem;
@@ -1426,7 +1426,7 @@ a.menu-toggle {
 	line-height: 27px;
 }
 .process-content .right-side, .process-content .left-side {
-	padding: 0 6% 24px;
+	padding: 0px;
 	position: absolute;
 	top: 0;
 }
@@ -1600,7 +1600,7 @@ a.menu-toggle {
  * ------------------------------------------------------------------- 
  */
 
-#pricing {
+#pricing, #downloads {
 	background: #EAEAED;
 	padding-top: 12rem;
 	padding-bottom: 9.6rem;
@@ -2397,4 +2397,18 @@ footer ul li {
 	left: 0px;
 }
 
+/** 
+ * ===================================================================
+ * downloads section
+ *
+ * ------------------------------------------------------------------- 
+ */
+
+#downloads a {
+	color: #737373;
+}
+
+#downloads a:hover {
+	color: #ff7b29;
+}
 /*# sourceMappingURL=main.css.map */
