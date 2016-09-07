@@ -8,7 +8,7 @@
       ================================================== -->
     <meta charset="utf-8">
     <title>Gravitee.io</title>
-    <meta name="description" content="">
+    <meta name="description" content="Gravitee.io, an open-source API Management Solution">
     <meta name="author" content="">
 
     <!-- mobile specific metas
@@ -90,7 +90,8 @@
         <div class="col-six tab-full">
             <div class="item" data-item="1">
                 <h5>Register API</h5>
-                <p>Register your API and configure the gateway. You need load-balancing, SSL management ? Perhaps an API documentation for your end users ?</p>
+                <p>Register a new API or by importing a Swagger descriptor and configure the gateway.</p>
+                <p>You need load-balancing, SSL management, fail-over, ... ? Perhaps an API documentation for your end-users / developers ?</p>
             </div>
         </div>
         <div class="col-six tab-full">
@@ -106,7 +107,8 @@
         <div class="col-six tab-full">
             <div class="item" data-item="2">
                 <h5>Configure policies on paths</h5>
-                <p>Policies are plugins that allow you to manage request and response on each call. Gravitee.io provides policies out of the box : rate limiting, headers or query parameters transformation, REST to SOAP mapping, IP filtering and a lot more...</p>
+                <p>Policies are plugins that allow you to manage request and response on each call.</p>
+                <p>Gravitee.io provides policies out of the box : rate-limiting, headers or query parameters transformation, REST to SOAP, IP filtering, OAuth2, JWT, Caching and a lot more...</p>
             </div>
         </div>
         <div class="col-six tab-full">
@@ -138,13 +140,33 @@
         <div class="col-six tab-full">
             <div class="item" data-item="4">
                 <h5>And voilà!</h5>
-                <p>Your gateway now handles each call and provides different dashboards for API publishers and consumers.</p>
+                <p>Gravitee.io gateway now handles each HTTP call and provides multiple analytics dashboards for API
+                    publishers and consumers.</p>
             </div>
         </div>
         <div class="col-six tab-full">
             <p>
                 <a href="images/dashboard.png" data-imagelightbox="a">
                     <img src="images/dashboard.png">
+                    <div class="overlay"></div>
+                </a>
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-six tab-full">
+            <div class="item" data-item="4">
+                <h5>Open your API to the world!</h5>
+                <p>The first user of your API will be a developer, you must provide all the elements required
+                to let him making its first call to your API.</p>
+                <p>With Gravitee, you can manage your API documentation by using standard format and descriptor like
+                Swagger, RAML or Markdown.</p>
+            </div>
+        </div>
+        <div class="col-six tab-full">
+            <p>
+                <a href="images/portal.png" data-imagelightbox="a">
+                    <img src="images/portal.png">
                     <div class="overlay"></div>
                 </a>
             </p>
@@ -283,6 +305,16 @@
                     <h3 class="h05">Fail-over</h3>
                     <p>
                         One of your API services is not available ? No problem, the gateway will take care of this and will direct the call to an other instance of your service in a transparent way for consumers.
+                    </p>
+                </div>
+            </div> <!-- /bgrid -->
+
+            <div class="bgrid feature">
+                <span class="icon"><i class="icon-shield"></i></span>
+                <div class="service-content">
+                    <h3 class="h05">Security</h3>
+                    <p>
+                        Protect your API by providing an API key to consumers, adding OAuth2 or JWT policy, Basic authentication, ...
                     </p>
                 </div>
             </div> <!-- /bgrid -->
