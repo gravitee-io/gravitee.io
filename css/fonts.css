@@ -193,4 +193,9 @@
     font-weight: normal;
     font-style: normal;
 }
-
+@font-face {
+    font-family: 'Didact Gothic';
+    src: url('../fonts/Didact_Gothic/DidactGothic-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
