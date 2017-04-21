@@ -2424,45 +2424,10 @@ a{cursor: pointer;}
 }
 .well span {color: #35a8e0;font-weight: bold;}
 
-@-webkit-keyframes Appear {
-  from {
-    opacity: 0;
-    visibility: hidden;
-    -webkit-transform: translate3d(0, 10px, 0);
-    transform: translate3d(0, 10px, 0);
-  }
 
-  to {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-
-@keyframes Appear {
-  from {
-    opacity: 0;
-    visibility: hidden;
-    -webkit-transform: translate3d(0, 10px, 0);
-    transform: translate3d(0, 10px, 0);
-  }
-
-  to {
-    visibility: visible;
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-
-.Appear {
-  -webkit-animation-name: Appear;
-  animation-name: Appear;
-}
 @media (min-width:768px) {
 	#process .carousel-inner {max-width: 70%;}
 }
-.bgrid.feature {opacity:0; animation-duration: 1s; animation-fill-mode:both}
 #downloads .top-part {padding-bottom: 6px;}
 #downloads .bottom-part {padding-bottom: 0px;}
 #downloads .price-block {float:none; margin:0 auto;}
