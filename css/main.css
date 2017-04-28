@@ -2444,3 +2444,8 @@ header a img{position: absolute; top: 0; right: 0; border: 0;}
 #carousel-generic2{width: 80%;margin: auto;text-align: left;}
 .copyright a[href*="https://graviteesource.com/"]{color:white; text-decoration:underline;}
 .copyright a{color:white;}
+.face{        width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    overflow: hidden;
+}
