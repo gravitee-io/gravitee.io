@@ -1,0 +1,44 @@
+
+title: Gravitee.io API Platform
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  Gravitee.io an open-source API Platform
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://gravitee.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+summary: Gravitee.io API Platform
+keywords: Gravitee.io, API Platform, API Management, API Gateway, security, oauth2, openid, documentation, manual, guide, reference, api
+
+twitter:
+  username: graviteeio
+
+github:
+  username: gravitee-io
+
+apim:
+  release:
+    version: 1.8.1
+    date: 18/07/2017
+
+am:
+  release:
+    version: 1.3.0
+    date: 12/07/2017
+
+# Build settings
+markdown: kramdown
+
+google_analytics: UA-67690250-1
+
+gems:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - .idea/
+  - .gitignore
+  - README.adoc
+  - CONTRIBUTING.adoc
+  - Gemfile
+  - Gemfile.lock

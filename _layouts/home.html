@@ -1,0 +1,404 @@
+---
+layout: default
+---
+
+<!-- intro section
+================================================== -->
+<section id="intro">
+    <div id="canvasplace" class="hidden-xs">
+
+    </div>
+    <div class="shadow-overlay"></div>
+    <div class="intro-content">
+        <div class="row">
+            <div class="col-twelve">
+                <span class="introtitre">Open Source API Platform</span>
+                <h1>UNLEASH THE POWER OF YOUR APIS</h1>
+                <p class="last">API Management :
+                    <span class="version">v.{{ site.apim.release.version }}</span>
+                    <span class="changelog">
+              (<a href="https://github.com/gravitee-io/issues/blob/master/CHANGELOG.adoc#change-log" target="_blank">View Changelog</a>)
+            </span>
+                    <br />
+                    Access Management :
+                    <span class="version">v.{{ site.am.release.version }}</span>
+                    <span class="changelog">
+              (<a href="https://github.com/gravitee-io/issues/blob/master/CHANGELOG.adoc#change-log" target="_blank">View Changelog</a>)
+            </span>
+                </p>
+                <a class="button stroke smoothscroll" href="#downloads" title="Downloads">Download</a>
+                <a class="button stroke" href="https://docs.gravitee.io/" title="Documentation" target="_blank">Documentation</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /intro -->
+
+<!-- Process Section
+================================================== -->
+<section id="process">
+
+    <div class="row section-intro">
+        <div class="col-twelve with-bottom-line">
+            <h2 class="sectiontitre">How it works</h2>
+            <p class="lead">
+                Gravitee.io is a flexible, lightweight and blazing-fast open source API Management solution that helps your organization control finely who, when and how users access your APIs.
+            </p>
+        </div>
+    </div>
+    <div class="col-twelve">
+        <div id="carousel-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-generic" data-slide-to="2"></li>
+                <li data-target="#carousel-generic" data-slide-to="3"></li>
+                <li data-target="#carousel-generic" data-slide-to="4"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" style="margin: auto;">
+                <div class="item active">
+                    <a href="{{ "/assets/images/register_api.jpg" | relative_url }}" data-imagelightbox="a"><img src="{{ "/assets/images/register_api.jpg" | relative_url }}" alt="register API"></a>
+
+                </div>
+                <div class="item">
+                    <a href="{{ "/assets/images/policies.jpg" | relative_url }}" data-imagelightbox="a"><img src="{{ "/assets/images/policies.jpg" | relative_url }}" alt="Policies"></a>
+
+                </div>
+                <div class="item">
+                    <a href="{{ "/assets/images/register_app.jpg" | relative_url }}" data-imagelightbox="a"><img src="{{ "/assets/images/register_app.jpg" | relative_url }}" alt="Register Application"></a>
+
+                </div>
+                <div class="item">
+                    <a href="{{ "/assets/images/analytics.jpg" | relative_url }}" data-imagelightbox="a"><img src="{{ "/assets/images/analytics.jpg" | relative_url }}" alt="Analytics"></a>
+
+                </div>
+                <div class="item">
+                    <a href="{{ "/assets/images/open.jpg" | relative_url }}" data-imagelightbox="a"><img src="{{ "/assets/images/open.jpg" | relative_url }}" alt="Open your API to the world"></a>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-generic" data-slide="prev">
+                <span class="icon-prev"></span>
+            </a>
+            <a class="right carousel-control" href="#carousel-generic" data-slide="next">
+                <span class="icon-next"></span>
+            </a>
+        </div>
+    </div>
+</section>
+<!-- /process-->
+
+
+<!-- features Section
+================================================== -->
+<section id="features">
+
+    <div class="row section-intro">
+        <div class="col-twelve with-bottom-line">
+            <h2 class="sectiontitre">Great features you'll love.</h2>
+            <p class="lead">Out of the box, Gravitee.io is bundled with a lot of features.</p>
+        </div>
+    </div>
+
+    <div class="row features-content">
+        <div class="features-list block-1-4 block-s-1-2 block-tab-full group">
+            <div class="bgrid feature">
+                <span class="icon"><i class="icon-file"></i></span>
+                <div class="service-content">
+                    <h3 class="h05">Rest API</h3>
+                    <p>
+                        Every action performed via the web UI is using our internal Rest API.
+                    </p>
+                </div>
+            </div>
+            <!-- /bgrid -->
+
+            <div class="bgrid feature">
+                <span class="icon"><i class="icon-cursor"></i></span>
+                <div class="service-content">
+                    <h3 class="h05">One click deployment</h3>
+                    <p>
+                        With a single click, your API is deployed to every Gravitee.io gateway and is ready to be consumed.
+                    </p>
+                </div>
+            </div>
+            <!-- /bgrid -->
+
+            <div class="bgrid feature">
+                <span class="icon"><i class="icon-cloud"></i></span>
+                <div class="service-content">
+                    <h3 class="h05">Highly scalable</h3>
+                    <p>
+                        You can easily add a new Gravitee.io gateway into your cluster. Data is synchronized and you don't have to waste time into configuration.
+                    </p>
+                </div>
+            </div>
+            <!-- /bgrid -->
+
+            <div class="bgrid feature">
+                <span class="icon"><i class="icon-share"></i></span>
+                <div class="service-content">
+                    <h3 class="h05">Custom Policies</h3>
+                    <p>
+                        Gravitee.io provides <a href="https://docs.gravitee.io/apim_policies_overview.html" target="_blank">a lot of policies</a> out of the box (rate limiting, CORS, IP filtering). If it's not enough, you can
+                        <a href="https://docs.gravitee.io/apim_devguide_policies.html" target="_blank">develop your own</a>.
+                    </p>
+                </div>
+            </div>
+            <!-- /bgrid -->
+
+            <div class="bgrid feature">
+                <span class="icon"><i class="icon-network"></i></span>
+                <div class="service-content">
+                    <h3 class="h05">Load Balancing</h3>
+                    <p>
+                        Round robin, random, sticky mode, Gravitee.io provides a set of load-balancing algorithms that fit your needs.
+                    </p>
+                </div>
+            </div>
+            <!-- /bgrid -->
+
+            <div class="bgrid feature">
+                <span class="icon"><i class="icon-update"></i></span>
+                <div class="service-content">
+                    <h3 class="h05">Rollback configuration</h3>
+                    <p>
+                        Every change in the configuration of your API is versioned. You can roll back to an old configuration or compare them.
+                    </p>
+                </div>
+            </div>
+            <!-- /bgrid -->
+
+            <div class="bgrid feature">
+                <span class="icon"><i class="icon-signal"></i></span>
+                <div class="service-content">
+                    <h3 class="h05">Custom Reporters</h3>
+                    <p>
+                        You want to report data into a specific storage or by calling a dedicated API ? No problem, just implement the reporting API and do whatever you want!
+                    </p>
+                </div>
+            </div>
+            <!-- /bgrid -->
+
+            <div class="bgrid feature">
+                <span class="icon"><i class="icon-bar-chart"></i></span>
+                <div class="service-content">
+                    <h3 class="h05">Analytics</h3>
+                    <p>
+                        Response time, response status, payload size, our analytics dashboard provides useful metrics to analyze the behavior of your API and how it is consumed.
+                    </p>
+                </div>
+            </div>
+            <!-- /bgrid -->
+
+            <div class="bgrid feature">
+                <span class="icon"><i class="icon-window"></i></span>
+                <div class="service-content">
+                    <h3 class="h05">API Portal</h3>
+                    <p>
+                        Because without a consumer, your API is nothing, Gravitee.io highlights your APIs on its portal and provides documentation and access control for applications which want to make use of your work.
+                    </p>
+                </div>
+            </div>
+            <!-- /bgrid -->
+
+            <div class="bgrid feature">
+                <span class="icon"><i class="icon-grid"></i></span>
+                <div class="service-content">
+                    <h3 class="h05">Sharding</h3>
+                    <p>
+                        By using tags, you can dispatch your APIs into multiple gateway instances (public / private environment, ...)
+                    </p>
+                </div>
+            </div>
+            <!-- /bgrid -->
+
+            <div class="bgrid feature">
+                <span class="icon"><i class="icon-heart"></i></span>
+                <div class="service-content">
+                    <h3 class="h05">Health check</h3>
+                    <p>
+                        As an API provider, add health check to your services and provide feedback to your users about the availability of your API.
+                    </p>
+                </div>
+            </div>
+            <!-- /bgrid -->
+
+            <div class="bgrid feature">
+                <span class="icon"><i class="icon-first-aid"></i></span>
+                <div class="service-content">
+                    <h3 class="h05">Fail-over</h3>
+                    <p>
+                        One of your API services is not available ? No problem, the gateway will take care of this and will direct the call to an other instance of your service in a transparent way for consumers.
+                    </p>
+                </div>
+            </div>
+            <!-- /bgrid -->
+
+            <div class="bgrid feature">
+                <span class="icon"><i class="icon-shield"></i></span>
+                <div class="service-content">
+                    <h3 class="h05">Security</h3>
+                    <p>
+                        Protect your API by providing an API key to consumers, adding OAuth2 or JWT policy, Basic authentication, ...
+                    </p>
+                </div>
+            </div>
+            <!-- /bgrid -->
+        </div>
+        <!-- /features-list -->
+    </div>
+    <!-- /features-content -->
+</section>
+<!-- /features -->
+
+<section id="downloads">
+    <div class="col-twelve tab-full mob-full">
+        <div class="row section-intro">
+            <div class="col-twelve with-bottom-line">
+                <span class="subtitle">Get Gravitee.io</span>
+                <h2 class="sectiontitre2">Downloads</h2>
+            </div>
+        </div>
+        <div class="col-six col-100">
+            <div class="row pricing-content col-twelve tab-full mob-full">
+                <div class="pricing-tables group">
+                    <div class="price-block">
+                        <div class="top-part">
+                            <h3 class="plan-title">Gravitee.io<br/> API Management</h3>
+                            <p class="price-meta">API Gateway, Management API and API Portal</p>
+                        </div>
+                        <div class="bottom-part">
+                            <a class="button stroke" href="./downloads/apim/index.html" target="_blank">Download <span>v.{{ site.apim.release.version }}</span></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /pricing-tables -->
+            </div>
+        </div>
+        <div class="col-six col-100">
+            <div class="row pricing-content col-twelve tab-full mob-full">
+                <div class="pricing-tables group">
+                    <div class="price-block">
+                        <div class="top-part">
+                            <h3 class="plan-title">Gravitee.io<br/> Access Management</h3>
+                            <p class="price-meta">Authorization Gateway, Management Portal</p>
+                        </div>
+                        <div class="bottom-part">
+                            <a class="button stroke" href="./downloads/am/index.html" target="_blank">Download <span>v.{{ site.am.release.version }}</span></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /pricing-tables -->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- About Section
+================================================== -->
+<section id="about">
+    <div class="col-twelve tab-full mob-full">
+        <div class="col-six col-100  tab-full mob-full">
+            <div class="row section-intro">
+                <div class="col-twelve with-bottom-line">
+                    <!-- <span class="subtitle">We thank you</span> -->
+                    <h2 class="sectiontitre2">Acknowledgements</h2>
+                </div>
+            </div>
+            <ul>
+                <li>
+                    <a target="_blank" href="https://www.jetbrains.com/"><img class="img-responsive" src="{{ "/assets/images/logo_jetbrains.png" | relative_url }}" alt="logo Jetbrains"></a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="col-six col-100  tab-full mob-full">
+            <div class="row section-intro">
+                <div class="col-twelve with-bottom-line">
+                    <!-- <span class="subtitle">They use Gravitee.io</span> -->
+                    <h2 class="sectiontitre2">They use Gravitee.io</h2>
+                </div>
+            </div>
+            <ul>
+                <li>
+                    <a target="_blank" href="http://www.groupe-auchan.com/"><img class="img-responsive" src="{{ "/assets/images/auchan_retail_logo.png" | relative_url }}" alt="logo Auchan Retail"></a>
+                </li>
+                <li>
+            </ul>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- /About -->
+
+<section id="testimonials">
+    <div class="col-twelve tab-full mob-full">
+        <div class="row section-intro">
+            <div class="col-twelve with-bottom-line">
+                <span class="subtitle"></span>
+                <h2 class="sectiontitre2">Testimonials</h2>
+            </div>
+        </div>
+        <div class="col-twelve col-100">
+            <div id="carousel-generic2" class="carousel slide" data-ride="carousel" style="">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-generic2" data-slide-to="0" class="active"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <div class="well well-lg">
+                            <blockquote>
+                                <p>Great solution for all scale corporate api management : the gateway scales out by design because it's « shared-nothing », and the dependence upon the underlying resources (database, disk, network …) is minimal.</p>
+                                <p>Amongst all the solutions we benched - open source and well-known editors, Gravitee is also the fastest by far, with a sub-millisecond overhead.</p>
+                                <p>For one of our customers (a big retailer), millions of calls per day are handled with almost no cpu load, and we are about to ramp up to millions per hour without pain or additionnal expense.</p>
+                            </blockquote>
+                            <div style="text-align:center;">
+                                <div class="col-twelve">
+                                    <img class="face" src="{{ "/assets/images/adewavrin.jpg" | relative_url }}" alt="">
+                                </div> <div  class="col-twelve" style="margin-bottom:30px;">
+                                <span>Anselme Dewavrin, CTO  <a href="http://apizr.fr/" target="_blank">APIZ'r</a></span>
+                            </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="well well-lg">
+                            <blockquote>
+                                <p>ECommerce teams of Auchan Retail France are proud to have believed since end of 2015 in the technical differentiation by the essentialisation of Gravitee.io and to have been able to "co-build" and contribute to this OSS approach from GraviteeSource team by defining an MVP, which has since become a complete product, resilient, distributed, scalable and high-performance.<p>
+                                <p>The API management stack is now a strong foundation firmly anchored at Auchan Retail, a real accelerator of our IT projects but also and especially of our business projects!</p>
+                            </blockquote>
+                            <div style="text-align:center;">
+                                <div class="col-twelve">
+                                    <img class="face" src="{{ "/assets/images/sdalle.jpeg" | relative_url }}" alt="">
+                                </div> <div  class="col-twelve" style="margin-bottom:30px;">
+                                <span>Sebastien Dalle, CTO ecommerce  <a href="http://groupe-auchan.com/" target="_blank">Auchan Retail France</a></span>
+                            </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-generic2" data-slide="prev">
+                    <span class="icon-prev"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-generic2" data-slide="next">
+                    <span class="icon-next"></span>
+                </a>
+            </div>
+        </div>
+
+    </div>
+</section>

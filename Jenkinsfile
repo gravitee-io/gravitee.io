@@ -1,10 +1,40 @@
 node() {
-    stage "Checkout"
+    try {
+        sh "rm -rf *"
 
-    checkout scm
+        stage("Checkout") {
+            checkout scm
+        }
 
-    stage "Docker Build & Push"
+        stage("Jekyll Build") {
+            sh "docker build -t gravitee.io/jekyll -f Dockerfile-build ."
+            sh "docker run --rm -v '${env.WORKSPACE}:/src' gravitee.io/jekyll build"
+        }
 
-    sh "docker build -t graviteeio/website:latest --pull=true ."
-    sh "docker push graviteeio/website:latest"
+        stage("Docker Build & Push") {
+            sh "docker build -t graviteeio/website:latest --pull=true ."
+            sh "docker push graviteeio/website:latest"
+        }
+
+        stage("Restart website container") {
+            sh "docker stop docs"
+            sh "docker rm docs"
+            sh "docker run -d --name docs graviteeio/website:latest"
+        }
+
+        stage("Clean") {
+            sh "docker run --rm -v '${env.WORKSPACE}:/src' gravitee.io/jekyll clean"
+        }
+    } catch (e) {
+        currentBuild.result = "FAILED"
+        sh "git log --format=short -n1 HEAD > GIT_LOG"
+        def git_log = readFile encoding: 'UTF-8', file: 'GIT_LOG'
+
+        slackSend (
+                color: '#FF0000',
+                message: ":poop: ${env.JOB_NAME} " +
+                        "<${env.BUILD_URL}console|[#${env.BUILD_NUMBER}]>\n\r" +
+                        "```${git_log}```")
+        throw e
+    }
 }

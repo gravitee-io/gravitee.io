@@ -1,0 +1,140 @@
+<!-- cta
+================================================== -->
+<section id="cta">
+
+    <div class="row section-intro">
+        <div class="col-twelve">
+
+            <h2 class="sectiontitre2">Fully Open Source</h2>
+
+            <p class="lead">Every piece of code is distributed under <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License V2</a></p>
+            <a href="https://github.com/{{ site.github.username }}" target="_blank"><span class="ion" title="GitHub Repository"><i class="ion-social-github"></i></span></a>
+            <a href="https://twitter.com/{{ site.twitter.username }}" target="_blank"><span class="ion" title="Follow us on Twitter"><i class="ion-social-twitter"></i></span></a>
+            <a href="https://graviteesource.com/" target="_blank" title="GraviteeSource"><img src="{{ "/assets/images/GS.png" | relative_url }}" alt="GraviteeSource"></a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+
+        <div class="row">
+
+            <div class="col-twelve">
+                <div class="copyright">
+                    <span>© Copyright <a href="https://graviteesource.com/"target="_blank" title="GraviteeSource">GraviteeSource</a> 2016<script>new Date().getFullYear()>2016&&document.write(" - "+new Date().getFullYear());</script>.</span>
+                    <span>Design by <a href="http://www.styleshout.com/" target="_blank">styleshout</a></span>
+                    <!-- Button trigger modal -->
+                    <span><a data-toggle="modal" data-target="#mentions">Legal Terms</a></span>
+                    <span><a data-toggle="modal" data-target="#cookies">About cookies</a></span>
+                    <div id="go-top">
+                        <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon ion-android-arrow-up"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <!-- /footer-bottom -->
+        </div>
+    </div>
+</section>
+<!-- /cta -->
+
+<div id="preloader">
+    <div id="loader"><img src="{{ "/assets/images/gravitee_logo_anim.gif" | relative_url }}" alt="" /></div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="mentions" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Legal Terms</h4>
+            </div>
+            <div class="modal-body">
+                <ul>
+                    <li>GraviteeSource SAS</li>
+                    <li>31 RUE SERGENT BOBILLOT 59200 TOURCOING</li>
+                    <li>Share capital : 1000€</li>
+                    <li>Contact : <a href="mailto:contact@graviteesource.com?subject=feedback">contact@graviteesource.com</a></li>
+                    <li>RCS Tribunal de Commerce de Lille Métropole 818 169 971</li>
+                    <li>TVA : FR 03 818 169 971</li>
+                    <li>Publication manager : Nicolas Geraud</li>
+                    <li>Host : OVH SAS</li>
+                    <li>Address : 2 rue Kellermann - 59100 Roubaix - France.</li>
+                    <li>Phone : 1007</li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="cookies" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">About cookies</h4>
+            </div>
+            <div class="modal-body">
+                <p>This website uses cookies for audience measurement purposes. They enable us to evaluate how you use this website and help us to improve it accordingly.</p>
+                <p>To do this, we use the Google Analytics service, which tells us how you got to the website, how long you stayed on a page and your approximate geolocation, which help us to improve your user experience.</p>
+                <p>These cookies are small files stored on your computer and can not be deleted directly via our website, however it is possible to delete them via your browser.</p>
+                <p>In <a target="_blank" href="https://support.microsoft.com/fr-fr/help/17442/windows-internet-explorer-delete-manage-cookies">Internet Explorer</a> , <a target="_blank" href="https://support.mozilla.org/t5/Cookies-and-cache/Effacer-les-cookies-pour-supprimer-les-informations-que-les/ta-p/11762">Mozilla Firefox</a>            , <a target="_blank" href="https://support.google.com/chrome/answer/95647?co=GENIE.Platform%3DDesktop&hl=fr">Google Chrome</a> ,
+                    <a target="_blank" href="http://help.opera.com/Windows/10.20/fr/cookies.html#prefs">Opera</a> , <a target="_blank" href="https://support.apple.com/kb/PH19214?locale=fr_BE&viewlocale=fr_FR">Safari</a>.
+
+                </p>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- script ================================================== -->
+<script src="{{ "/assets/js/modernizr.js" | relative_url }}"></script>
+
+<!-- Java Script
+================================================== -->
+<script src="{{ "/assets/js/jquery-1.11.3.min.js" | relative_url }}"></script>
+<script src="{{ "/assets/js/jquery-migrate-1.2.1.min.js" | relative_url }}"></script>
+<script src="{{ "/assets/js/plugins.js" | relative_url }}"></script>
+<script src="{{ "/assets/js/main.js" | relative_url }}"></script>
+
+<script type="text/javascript" src="{{ "/assets/js/tarteaucitron/tarteaucitron.js" | relative_url }}"></script>
+
+<script type="text/javascript">
+    tarteaucitron.init({
+        "hashtag": "#tarteaucitron",
+        /* Ouverture automatique du panel avec le hashtag */
+        "highPrivacy": false,
+        /* désactiver le consentement implicite (en naviguant) ? */
+        "orientation": "bottom",
+        /* le bandeau doit être en haut (top) ou en bas (bottom) ? */
+        "adblocker": false,
+        /* Afficher un message si un adblocker est détecté */
+        "showAlertSmall": false,
+        /* afficher le petit bandeau en bas à droite ? */
+        "cookieslist": false,
+        /* Afficher la liste des cookies installés ? */
+        "removeCredit": false /* supprimer le lien vers la source ? */
+    });
+</script>
+<script type="text/javascript">
+    tarteaucitron.user.analyticsUa = '{{site.google_analytics}}';
+    tarteaucitron.user.analyticsMore = function() { /* add here your optionnal ga.push() */ };
+    (tarteaucitron.job = tarteaucitron.job || []).push('analytics');
+</script>
+
+{% if page.url == '/' %}
+<!-- Animation principale-->
+<script type="text/javascript" src="{{ "/assets/js/bootstrap.min.js" | relative_url }}" charset="utf-8"></script>
+<script type="text/javascript" src="{{ "/assets/js/space.js" | relative_url }}"></script>
+<script type="text/javascript">
+    $('.carousel').carousel({
+        interval: 6000
+    })
+</script>
+{% endif %}
