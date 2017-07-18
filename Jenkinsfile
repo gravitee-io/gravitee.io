@@ -17,9 +17,9 @@ node() {
         }
 
         stage("Restart website container") {
-            sh "docker stop docs"
-            sh "docker rm docs"
-            sh "docker run -d --name docs graviteeio/website:latest"
+            sh "docker stop website"
+            sh "docker rm website"
+            sh "docker run -d --name website graviteeio/website:latest"
         }
 
         stage("Clean") {
