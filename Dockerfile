@@ -13,5 +13,5 @@
 FROM graviteeio/httpd:latest
 MAINTAINER Gravitee Team <http://gravitee.io>
 
-COPY . /var/www/html/
+COPY _site /var/www/html/
 CMD ["/usr/sbin/httpd", "-DFOREGROUND"]
