@@ -11,7 +11,8 @@
       ================================================== -->
   <meta charset="utf-8">
   <title>Gravitee.io</title>
-  <meta name="description" content="Gravitee.io, an open-source API Management Solution">
+  <meta name="description" content="Gravitee.io, an open-source API Platform">
+  <meta name="keywords" content="Gravitee.io, API Platform, API Management, API Gateway, security, oauth2, openid, policy, analytics, health, reporting">
   <meta name="author" content="">
 
   <!-- mobile specific metas
@@ -72,10 +73,21 @@
     <div class="intro-content">
       <div class="row">
         <div class="col-twelve">
-          <span class="introtitre">Open Source API Management Solution</span>
+          <span class="introtitre">Open Source API Platform</span>
           <h1>UNLEASH THE POWER OF YOUR APIS</h1>
-          <p class="last">Last release : <span class="releaseVersion version"></span> <span class="changelog">(<a href="https://github.com/gravitee-io/issues/blob/master/CHANGELOG.adoc#change-log" target="_blank">View Changelog</a>)</span></p>
-          <a class="button stroke" href="downloads/full-stack/latest" title="Downloads" target="_blank">Download</a>
+          <p class="last">API Management :
+            <span class="apimReleaseVersion version"></span>
+            <span class="changelog">
+              (<a href="https://github.com/gravitee-io/issues/blob/master/CHANGELOG.adoc#change-log" target="_blank">View Changelog</a>)
+            </span>
+            <br />
+          Access Management :
+            <span class="amReleaseVersion version"></span>
+            <span class="changelog">
+              (<a href="https://github.com/gravitee-io/issues/blob/master/CHANGELOG.adoc#change-log" target="_blank">View Changelog</a>)
+            </span>
+          </p>
+          <a class="button stroke smoothscroll" href="#downloads" title="Downloads">Download</a>
           <a class="button stroke" href="https://docs.gravitee.io/" title="Documentation" target="_blank">Documentation</a>
         </div>
       </div>
@@ -320,10 +332,10 @@
             <div class="price-block">
               <div class="top-part">
                 <h3 class="plan-title">Gravitee.io<br/> API Management</h3>
-                <p class="price-meta">Gateway, Management API and API Portal</p>
+                <p class="price-meta">API Gateway, Management API and API Portal</p>
               </div>
               <div class="bottom-part">
-                <a class="button stroke" href="downloads/full-stack/latest" target="_blank">Download <span class="releaseVersion"></span></a>
+                <a class="button stroke" href="./downloads/apim/latest/index.html" target="_blank">Download <span class="apimReleaseVersion"></span></a>
               </div>
             </div>
           </div>
@@ -336,10 +348,10 @@
             <div class="price-block">
               <div class="top-part">
                 <h3 class="plan-title">Gravitee.io<br/> Access Management</h3>
-                <p class="price-meta">A new download will be released soon!</p>
+                <p class="price-meta">Authorization Gateway, Management Portal</p>
               </div>
               <div class="bottom-part">
-                <a class="button stroke" href="https://twitter.com/GraviteeIO" target="_blank">Stay Tuned @GraviteeIO!</a>
+                <a class="button stroke" href="./downloads/am/latest/index.html" target="_blank">Download <span class="amReleaseVersion"></span></a>
               </div>
             </div>
           </div>
@@ -562,7 +574,7 @@
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
   <script>
-    var releases = [
+    var apimreleases = [
       // LAST BUILD RELEASE
       "v1.8.1",
       "v1.8.0",
@@ -601,7 +613,20 @@
       "v0.9.0",
       "v0.8.2"
     ];
-    $('span.releaseVersion').html(releases[0]);
+    $('span.apimReleaseVersion').html(apimreleases[0]);
+  </script>
+
+  <script>
+    var amreleases = [
+      // LAST BUILD RELEASE
+      "v1.3.0",
+      "v1.2.1",
+      "v1.2.0",
+      "v1.1.0",
+      "v1.0.1",
+      "v1.0.0"
+    ];
+    $('span.amReleaseVersion').html(amreleases[0]);
   </script>
   <!-- <script>
     (function(i, s, o, g, r, a, m) {
