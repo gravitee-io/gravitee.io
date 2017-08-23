@@ -19,7 +19,7 @@ node() {
         stage("Restart website container") {
             sh "docker stop website"
             sh "docker rm website"
-            sh "docker run -d --name website graviteeio/website:latest"
+            sh "docker run -d -l \"traefik.frontend.rule=Host:gravitee.io\" --name website graviteeio/website:latest"
         }
 
         stage("Clean") {
