@@ -2406,6 +2406,12 @@ a{cursor: pointer;}
     font-size: 2rem;}
 .version{color:white;}
 .changelog, .changelog a{color:#8a8a8a; font-size: 1.2rem;}
+.chat{
+	color:white;
+	font-size: 1.6rem;
+	font-weight: bold;
+	font-family: Raleway-bold;
+}
 .carousel-control .icon-prev:before {
     content: '\e998';}
 .carousel-control .icon-next:before {
