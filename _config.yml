@@ -17,13 +17,13 @@ github:
 
 apim:
   release:
-    version: 1.11.3
-    date: 22/11/2017
+    version: 1.11.4
+    date: 26/11/2017
 
 am:
   release:
-    version: 1.5.1
-    date: 14/11/2017
+    version: 1.5.2
+    date: 24/11/2017
 
 # Build settings
 markdown: kramdown
