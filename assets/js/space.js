@@ -41,7 +41,6 @@ var Space = (function () {
         var scale = this.ratio;
         this.canvas.width = window.innerWidth;
         this.canvas.height = window.innerHeight;
-        this.canvas.style.height = '100%';
         this.canvas.style.background = 'rgba(0, 0, 0, 0)';
         this.canvas.style.position = 'absolute';
         this.canvas.id = 'canvas';
