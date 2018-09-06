@@ -17,8 +17,8 @@ github:
 
 apim:
   release:
-    version: 1.18.2
-    date: 29/08/2018
+    version: 1.18.3
+    date: 05/09/2018
 
 am:
   release:
