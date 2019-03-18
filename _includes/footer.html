@@ -1,40 +1,55 @@
-<!-- cta
+<!-- footer
 ================================================== -->
-<section id="cta">
-
-    <div class="row section-intro">
-        <div class="col-twelve">
-
-            <h2 class="sectiontitre2">Fully Open Source</h2>
-
-            <p class="lead">Every piece of code is distributed under <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License V2</a></p>
-            <a href="https://github.com/{{ site.github.username }}" target="_blank"><span class="ion" title="GitHub Repository"><i class="ion-social-github"></i></span></a>
-            <a href="https://twitter.com/{{ site.twitter.username }}" target="_blank"><span class="ion" title="Follow us on Twitter"><i class="ion-social-twitter"></i></span></a>
-            <a href="https://graviteesource.com/" target="_blank" title="GraviteeSource"><img src="{{ "/assets/images/GS.png" | relative_url }}" alt="GraviteeSource"></a>
-        </div>
-    </div>
-    <div class="footer-bottom">
-
+<footer>
+    <div class="footer-main">
         <div class="row">
+            <div class="col-four tab-full mob-full footer-info">
+                <div class="footer-logo"></div>
+                <p>
+                    GraviteeSource SAS<br>
+                    818 169 971 RCS Lille Métropole - FRANCE<br>
+                </p>
+            </div> <!-- /footer-info -->
 
+            <div class="col-two tab-1-3 mob-1-2 site-links">
+                <h4>Site Links</h4>
+                <ul>
+                    <li><a href="/enterprise#about" target="_blank">About Us</a></li>
+                    <li><a href="http://blog.gravitee.io" target="_blank">Blog</a></li>
+                    <li><a href="https://docs.gravitee.io" target="_blank">Documentation</a></li>
+                </ul>
+            </div> <!-- /site-links -->
+
+            <div class="col-two tab-1-3 mob-1-2 social-links">
+                <h4>Social</h4>
+                <ul>
+                    <li><a href="https://twitter.com/GraviteeIO" target="_blank">Twitter</a></li>
+                    <li><a href="https://github.com/gravitee-io" target="_blank">Github</a></li>
+                    <li><a href="https://graviteesource.com" target="_blank">GraviteeSource</a></li>
+                </ul>
+            </div> <!-- /social -->
+
+            <div class="col-four tab-1-3 mob-full footer-subscribe">
+                <h4>Contact</h4>
+                <p><a href="mailto:contact@graviteesource.com">contact@graviteesource.com</a></p>
+            </div> <!-- /subscribe -->
+        </div> <!-- /row -->
+    </div> <!-- /footer-main -->
+    <div class="footer-bottom">
+        <div class="row">
             <div class="col-twelve">
                 <div class="copyright">
-                    <span>© Copyright <a href="https://graviteesource.com/"target="_blank" title="GraviteeSource">GraviteeSource</a> 2016<script>new Date().getFullYear()>2016&&document.write(" - "+new Date().getFullYear());</script>.</span>
-                    <span>Design by <a href="http://www.styleshout.com/" target="_blank">styleshout</a></span>
-                    <!-- Button trigger modal -->
-                    <span><a data-toggle="modal" data-target="#mentions">Legal Terms</a></span>
-                    <span><a data-toggle="modal" data-target="#cookies">About cookies</a></span>
-                    <div id="go-top">
-                        <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon ion-android-arrow-up"></i></a>
-                    </div>
+                    <span>© Copyright <a href="https://graviteesource.com/" target="_blank" title="GraviteeSource">GraviteeSource</a> 2016<script>new Date().getFullYear()>2016&&document.write(" - "+new Date().getFullYear());</script>.</span>
+                    <span>Design by <a href="http://www.styleshout.com/">styleshout</a></span>
                 </div>
 
+                <div id="go-top" style="display: block;">
+                    <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon ion-android-arrow-up"></i></a>
+                </div>
             </div>
-            <!-- /footer-bottom -->
-        </div>
+        </div> <!-- /footer-bottom -->
     </div>
-</section>
-<!-- /cta -->
+</footer>
 
 <!-- Modal -->
 <div class="modal fade" id="mentions" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
