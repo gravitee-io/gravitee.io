@@ -17,8 +17,8 @@ github:
 
 apim:
   release:
-    version: 1.25.1
-    date: 06/05/2019
+    version: 1.25.2
+    date: 09/05/2019
 
 am:
   release:
