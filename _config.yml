@@ -22,8 +22,8 @@ apim:
 
 am:
   release:
-    version: 2.10.5
-    date: 08/01/2020
+    version: 2.10.6
+    date: 20/01/2020
 
 # Build settings
 markdown: kramdown
