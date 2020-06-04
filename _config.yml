@@ -17,8 +17,8 @@ github:
 
 apim:
   release:
-    version: 3.0.1
-    date: 26/05/2020
+    version: 3.0.2
+    date: 03/06/2020
 
 am:
   release:
